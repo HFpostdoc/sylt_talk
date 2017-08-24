@@ -54,6 +54,8 @@ fig_caption: no
 - Data collected by two researchers in two locations 20 years ago
 - Models developed by two researchers and tailored to current data
 
+# Issues of trust, privacy and attribution
+
 
 # Data transparency == Resource transparency 
 
