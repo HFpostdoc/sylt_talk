@@ -1,4 +1,4 @@
-## Sytl Meeting Abstract
+## Sylt Meeting Abstract
 
 Multilayer network analyses, which have been applied to many kinds of
 networks from physics to economics, are starting to find inroads into
