@@ -20,26 +20,54 @@ fig_caption: no
 
 **Email: _matthewklau@fas.harvard.edu_**
 
-# Motivation
 
-- Reproduciblility [@baker2016]
-- Transparency [@pasquier2017]
+# Multilayer networks
 
-# Motivation
+Pic Pilosof fig
 
-- 
-- Software legibility
-- Data/model attribution
 
-# Motivation
+# Multilayer networks
+
+Pic pitcher plants
+
+# Multilayer networks
+
+Pic Holly Molly sampling description
+
+- Data set comprised of observations of individuals synthesized into
+  hundreds of network models
+- Data collected by two researchers in two locations 20 years ago
+- Models developed by two researchers and tailored to current data
+
+# Multilayer networks
+
+Pic Preliminary results of temporal analysis
+
+# Multilayer networks
+
+Pic code not reproducible
+
+# Reproducibility
+
+Pic Reproduciblility [@baker2016]
+
+# Open Process
+
+Transparency [@pasquier2017]
+
+# Data Provenance and Ecological Networks
 
 - Network metrics and provenance [@Lau2017]
 - Diffuse data collection
 - Model benefaction
 
-# Targets
+# Example application
 
-*OPEN* data + source + process
+enaR 
+
+# Policy Relevance
+
+*OPEN*  = data + source + process
 
 - provenance capture
 - code cleaning
@@ -47,18 +75,6 @@ fig_caption: no
 - Dataverse
 - CI
 
-# Example: Multilayer food-web modeling and analysis
-
-- Data set comprised of observations of individuals synthesized into
-  hundreds of network models
-- Data collected by two researchers in two locations 20 years ago
-- Models developed by two researchers and tailored to current data
-
-# Issues of trust, privacy and attribution
 
 
-# Data transparency == Resource transparency 
 
-Implications for policy and management
-
-Example = seafood + sourcing
