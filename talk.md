@@ -1,9 +1,8 @@
 ---
 title: "Tracking the data provenance for multilayer network modeling
 and analysis of foodwebs"
-author: "Matthew K. Lau$^1$, Thomas F.J.M. Pasquier$^2$, Aaron M. Ellison$^1$"
-footnote: "1. Harvard Forest, Harvard University, Petersham, MA
-2. Center for Research on Computation and Society, Harvard University, Cambridge, MA"
+author: "Matthew K. Lau, Thomas F.J.M. Pasquier, Aaron M. Ellison
+(Harvard University)"
 output:
 beamer_presentation:
 theme: "metropolis"
@@ -94,15 +93,9 @@ if (q > 0.5){
 
 ![](prov.jpeg)\ 
 
-- Produces a static representation of a dynamic computational processes
-
-
 # cleanR
-![](messy.png)\ 
+![](messy.png)\ ![](clean.png)\ 
 
-# cleanR
-
-![](clean.png)\ 
 
 # encapsulator
 
