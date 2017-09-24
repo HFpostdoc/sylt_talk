@@ -1,7 +1,9 @@
 ---
 title: "Tracking the data provenance for multilayer network modeling
 and analysis of foodwebs"
-author: Matthew K. Lau (Harvard Forest, Harvard University)
+author: "Matthew K. Lau$^1$, Thomas F.J.M. Pasquier$^2$, Aaron M. Ellison$^1$"
+footnote: "1. Harvard Forest, Harvard University, Petersham, MA
+2. Center for Research on Computation and Society, Harvard University, Cambridge, MA"
 output:
 beamer_presentation:
 theme: "metropolis"
@@ -10,78 +12,121 @@ fig_caption: no
 
 
 
-# 
-**Matthew K. Lau$^1$, Thomas F.J.M. Pasquier$^2$, Aaron M. Ellison$^1$**
+# Pitcher Microecosystems
 
-1. Harvard Forest, Harvard University, Petersham, MA
-2. Center for Research on Computation and Society, Harvard University, Cambridge, MA
+![](sp2.png)\ 
 
-**Email: _matthewklau@fas.harvard.edu_**
+# Multilayer network analysis
+
+![](pilosof1.png)\ 
+
+
+<!-- Pic pitcher plants -->
+<!-- Pic Holly Molly sampling description -->
+
+<!-- - Data set comprised of observations of individuals synthesized into -->
+<!--   hundreds of network models -->
+<!-- - Data collected by two researchers in two locations 20 years ago -->
+<!-- - Models developed by two researchers and tailored to current data -->
+
+# Multilayer networks
+
+![](ami_holly.png)\  ![](sp1.png)\ 
 
 
 # Multilayer networks
 
-Pic Pilosof fig
+![](pilosof3.png)\ 
 
 
-# Multilayer networks
+# A Reproducibility Crisis (Baker 2015)
 
-Pic pitcher plants
+![](baker1.png)\ 
 
-# Multilayer networks
+# A Reproducibility Crisis (Baker 2015)
 
-Pic Holly Molly sampling description
+![](baker2.png)\ 
 
-- Data set comprised of observations of individuals synthesized into
-  hundreds of network models
-- Data collected by two researchers in two locations 20 years ago
-- Models developed by two researchers and tailored to current data
+# Open Process (Pasquier et al. 2017)
 
-# Multilayer networks
+![](cern_hf.png)\ 
 
-Pic Preliminary results of temporal analysis
+# Open Process (Pasquier et al. 2017)
 
-# Multilayer networks
+![](nsd.png)\ 
 
-Pic code not reproducible
+# Challenge: How do you know what the code acutally does?
 
-# Reproducibility
+```
+q <- runif(1)
+if (q > 0.5){
+     print("Yay!")
+   }else{
+     print("boooo!")
+}
+```
 
-Pic Reproduciblility [@baker2016]
-
-# Open Process
-
-Transparency [@pasquier2017]
 
 # Data Provenance and Ecological Networks
 
-- Network metrics and provenance [@Lau2017]
-- Diffuse data collection
-- Model benefaction
+![](mee.png)\ 
+
+<!-- - Network metrics and provenance [@Lau2017] -->
+<!-- - Diffuse data collection -->
+<!-- - Model benefaction -->
+
 
 # ProvTools
 
-- provR + RDataTracker
-- cleanR
+![](pt1.png)\ 
 
-# Example application
+# ProvTools
 
-enaR = Ecosystem Network Analysis in R [@borret2014]
+![](pt2.png)\ 
+![](pt3.png)\ 
 
-- Show script building models
-- Show provenance graph
-- Show cleaning
+# ProvTools
 
-# Policy Relevance
+![](pt3.png)\ 
+![](pt4.png)\ 
 
-*OPEN*  = data + source + process
+# provR (aka. RDataTracker)
 
-- Science is understanding and sharing is essential
-- provenance capture
-- code cleaning
-- encapsulation
-- Dataverse
-- CI
+![](prov.jpeg)\ 
+
+- Produces a static representation of a dynamic computational processes
 
 
+# cleanR
+![](messy.png)\ 
 
+# cleanR
+
+![](clean.png)\ 
+
+# encapsulator
+
+![](enc.png)\ 
+
+
+# enaR model packing (Borrett and Lau 2014)
+
+![](enar.png)\ 
+
+# Policy: *OPEN* Science  = data + source + process
+
+![](backoff1.png)\ 
+
+
+# Policy: *OPEN* Science = data + source + process
+
+![](backoff2.png)\ 
+
+# Thank you
+
+Interested in alpha testing or more information about provenance and ProvTools:
+
+**provtools.org**
+
+
+**Email me: _matthewklau@fas.harvard.edu_**
